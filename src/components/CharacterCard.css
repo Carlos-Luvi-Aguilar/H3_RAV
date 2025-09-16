@@ -1,0 +1,49 @@
+.character-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+  margin-bottom: 1.5rem;
+}
+
+.character-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+.character-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.character-info {
+  padding: 1.5rem;
+}
+
+.character-name {
+  margin: 0 0 1rem 0;
+  color: #333;
+  font-size: 1.4rem;
+}
+
+.character-status {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.status-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.character-details p {
+  margin: 0.5rem 0;
+  color: #666;
+  font-size: 0.9rem;
+}
