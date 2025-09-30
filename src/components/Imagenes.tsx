@@ -17,16 +17,16 @@ const Imagenes: React.FC = () => {
     {
       id: 1,
       position: "-2 1.5 -3",
-      src: "montañas.jpeg",
-      title: "Imagen 1",
-      description: "Paisaje increíble con montañas y un cielo despejado."
+      src: "gioconda.jpeg",
+      title: "La Gioconda",
+      description: "La pintura de la Gioconda, obra maestra de Leonardo da Vinci, más conocidad como la Monalisa. Es famosa por su enigmática sonrisa y su técnica de sfumato."
     },
     {
       id: 2,
       position: "2 1.5 -3",
-      src: "escultura.jpeg",
-      title: "Imagen 2",
-      description: "Escultura moderna con formas geométricas únicas."
+      src: "viejo.jpeg",
+      title: "El viejo guitarrista",
+      description: "El viejo guitarrista, obra maestra de Pablo Picasso, creada en 1903. Representa a un anciano ciego tocando la guitarra. Es una obra emblemática del período azul de Picasso."
     }
   ];
 
